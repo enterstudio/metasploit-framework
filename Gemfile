@@ -24,7 +24,7 @@ group :development do
   gem 'octokit'
   # metasploit-aggregator as a framework only option for now
   # Metasploit::Aggregator external session proxy
-  gem 'metasploit-aggregator'
+  gem 'metasploit-aggregator', '>= 0.2.0'
 end
 
 group :development, :test do
